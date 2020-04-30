@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav li {
+  min-width: 100px;
+  padding: 20px;
+  border: 1px solid rebeccapurple;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+.myActive {
+  font-weight: bold;
+  color: mediumvioletred;
+}
